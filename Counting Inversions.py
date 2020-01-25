@@ -39,5 +39,5 @@ if __name__ == "__main__":
     import random
     size = 100000
     A = [random.randint(1, 1000000000) for i in range(size)]
-    A = [7, 6, 5, 4, 3, 2, 1]
+    # A = [7, 6, 5, 4, 3, 2, 1]
     print(count_inversions(A, len(A)))
